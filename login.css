@@ -31,6 +31,7 @@ background: #0ef;
     justify-content: space-around;
     align-items: center;
     background-image:url('nav.jpg');
+    background-size:cover;
     border: 1px solid #fff100;
 
 
