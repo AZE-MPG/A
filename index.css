@@ -39,7 +39,7 @@ hr
    border: 1px solid var(--clr);
    border-radius: 2px;
    letter-spacing: .2em;
-   font-size: 1.1em;
+   font-size: 1.2em;
 }
 
 .navbar a:hover
@@ -47,7 +47,7 @@ hr
     color: var(--clr);
     border: 1px solid var(--clr);
     box-shadow: 0 0 20px 5px var(--clr);
-    letter-spacing: 0.5em;   
+    letter-spacing: 0.3em;   
 }
 
 
