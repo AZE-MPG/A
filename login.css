@@ -30,7 +30,7 @@ background: #0ef;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image:url(nav.jpg);
+    background-image:url('nav.jpg');
     border: 1px solid #fff100;
 
 
