@@ -24,7 +24,7 @@ hr
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background:#010203;
+    background-image:url('nav.jpg');
     
 }
 
