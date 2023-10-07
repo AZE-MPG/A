@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <link rel="stylesheet" href="sip.css">
+    <link
+      rel="stylesheet"
+      data-purpose="Layout StyleSheet"
+      title="Web Awesome"
+      href="/css/app-wa-02670e9412103b5852dcbe140d278c49.css?vsn=d"
+    >
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css" > 
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-solid.css" > 
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-regular.css" > 
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-light.css" >
+    <script src="sip.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html" style="--clr:#ff000a"><span>HOME</span><i></i></a>
+        <a href="login.html" style="--clr:#28f000"><span>LOGIN</span><i></i></a>
+       
+
+    </div>
+
+    <div class="main">
+        <div class="inputs">
+        <div class="heading">
+            <h1>SIP CACLULATOR</h1>
+        </div>
+        <hr>
+        <div class="input">
+            <p>Invested (Annually) </p>
+            <input type="number" class="sip" placeholder=" Rs 100000">
+        </div>
+        <div class="input">
+            <p>Rate (Per Year) </p>
+            <input type="number" class="rate" placeholder="10%">
+       </div>
+       <div class="input">
+            <p>Duration (In Yrs) </p>
+            <input type="number" class="duration" placeholder="10 yrs">
+       </div>
+       <div class="btn">
+           <button onclick="calculate()">CALCULATE</button>
+       </div>
+       </div>
+       <div class="amt">
+           <h3 id="totalinvestment"></h3>
+           <h3 id="finalamount"></h3>
+           <h3 id="netprofit"></h3>
+           <h3 id="profitpercent"></h3>
+    </div> 
+     <i></i>
+    </div>
+</body>
+</html>
